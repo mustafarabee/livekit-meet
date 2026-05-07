@@ -1,7 +1,8 @@
+Yaml
 services:
-    - type: web
-    name: livekit-meet
-    env: node
+  - type: web
+      name: livekit-meet
+      env: node
     buildCommand: npm install && npm run build
     startCommand: npm start
     envVars:
