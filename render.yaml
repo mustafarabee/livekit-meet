@@ -1,7 +1,7 @@
 services:   
   - type: web
     name: livekit-meet  
-      env: node
+       env: node
       buildCommand: npm install && npm run build
       startCommand: npm start
       envVars:
